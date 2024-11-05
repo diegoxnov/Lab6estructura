@@ -33,7 +33,7 @@ El parámetro `MAX_KEYS` define el número máximo de claves que un nodo en el �
 - `MAX_KEYS = 5`
 - `MAX_KEYS = 7`
 
-> **Nota**: No se recomienda usar `MAX_KEYS = 4` o `MAX_KEYS = 6` con esta implementación, ya que genera errores de segmentación.
+> **Nota**: Se corrigio el código ya que con MEX_KEYS 4 y 6 no se podía compilar.
 
 ## Experimentación: Comparación de Tiempos de Ejecución
 
