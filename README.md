@@ -33,7 +33,7 @@ El parámetro `MAX_KEYS` define el número máximo de claves que un nodo en el �
 - `MAX_KEYS = 5`
 - `MAX_KEYS = 7`
 
-> **Nota**: No se recomienda usar `MAX_KEYS = 4` o `MAX_KEYS = 6` con esta implementación, ya que genera errores de segmentación.
+
 
 ## Experimentación: Comparación de Tiempos de Ejecución
 
@@ -59,7 +59,7 @@ Para medir el rendimiento, se han realizado pruebas con diferentes valores de `M
 | 7          | *10.1057 ms*                  | *4.9e-06 ms*                     |
 
 
-> **Nota**: Reemplaza `*valor_medido_X*` y `*valor_busqueda_X*` con los valores medidos durante la ejecución.
+
 
 ### Gráficas de los Resultados
 
@@ -69,7 +69,7 @@ Las siguientes gráficas muestran cómo los tiempos de carga de datos y búsqued
 
 	![Descripción de la imagen](./img/tiempos.png)
 
-> **Instrucción**: Utiliza `gnuplot` o una herramienta similar para generar las gráficas. Asegúrate de registrar los tiempos en un archivo CSV y luego importarlo en `gnuplot` para crear las visualizaciones.
+
 
 ## Conclusiones
 
